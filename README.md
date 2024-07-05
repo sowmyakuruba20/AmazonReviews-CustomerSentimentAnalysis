@@ -73,7 +73,10 @@ You can install the required packages using:
 pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 ## Usage
-To run the project, execute the Jupyter Notebook Amazon_Review_Sentiment_Analysis.ipynb.
+To run the project, execute the 
+```
+Jupyter Notebook Amazon_Review_Sentiment_Analysis.ipynb
+```
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
