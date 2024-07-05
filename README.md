@@ -25,14 +25,18 @@ The data for this project is collected from the [Amazon Customer Reviews dataset
 - `rating`: The rating given by the customer.
 - `date`: The date of the review.
 - `variation`: The product variation.
-- `verified_reviews`: The review text.
-- `feedback`: Feedback score.
+- `verified_reviews`: The review text. (feature)
+- `feedback`: Feedback score. (target)
 
 ## Data Preprocessing
-Data preprocessing steps include cleaning the review text, handling missing values, and encoding categorical variables.
+Data preprocessing steps include cleaning the review text, handling missing values, removing stop words and punctuation
 
 ## Exploratory Data Analysis
 In this section, we perform exploratory data analysis (EDA) to understand the distribution of the data and extract key insights.
+
+## Feature Engineering
+Transforming the cleaned review text into the numbers that the machine learning models can understand
+I have used a simple count vectorization method to tokenize or vectorize the review text
 
 ## Modeling
 We use various machine learning models to classify the sentiment of the reviews. The models include:
