@@ -1,5 +1,5 @@
 # Amazon Reviews - Customer Sentiment Analysis
-![screenshot](screenshot.png)
+![screenshot](amazon.png)
 
 This repository contains a project that performs sentiment analysis on Amazon customer reviews. The analysis aims to determine the overall sentiment of the reviews and extract meaningful insights from the data.
 
